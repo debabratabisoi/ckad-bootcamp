@@ -8,3 +8,4 @@ kubectl get pods -A
 kubectl apply -f manifests/nginx-pod.yaml
 kubectl apply -f manifests/nginx-deployment.yaml
 kubectl get pods
+```

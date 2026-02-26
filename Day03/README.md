@@ -6,3 +6,4 @@ kubectl apply -f manifests/nginx-probes.yaml
 kubectl get pods
 kubectl describe pod <pod-name>
 kubectl delete pod <pod-name>   # to observe restart behavior
+```

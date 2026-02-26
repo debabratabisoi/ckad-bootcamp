@@ -7,3 +7,4 @@ kubectl get svc
 kubectl apply -f manifests/nginx-scale.yaml
 kubectl get deployments
 kubectl get pods
+```

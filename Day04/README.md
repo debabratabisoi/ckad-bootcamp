@@ -8,3 +8,4 @@ kubectl apply -f manifests/nginx-config-secret-pod.yaml
 kubectl get pods
 kubectl exec -it nginx-config-secret-pod -- env | grep USERNAME
 kubectl exec -it nginx-config-secret-pod -- env | grep PASSWORD
+```

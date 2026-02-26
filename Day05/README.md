@@ -9,7 +9,7 @@ kubectl get pvc
 kubectl apply -f manifests/nginx-pv-pod.yaml
 kubectl get pods
 kubectl exec -it nginx-pv-pod -- /bin/bash
-
+```
 ## Real-World Case Study
 Imagine an e-commerce application running on Kubernetes:
 
